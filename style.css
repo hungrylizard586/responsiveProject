@@ -1,4 +1,13 @@
-
+@media only screen and (max-device-width: 800px) {
+    .flexcontainer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        
+    }
+}
 /* styling search bar */
 #search input[type=text]{
     width:300px;
@@ -82,13 +91,15 @@ img{
     width: 38rem;
     height: 38rem;
 }
-.flexcontainer1{
+
+ .flexcontainer1{
     display: flex;
     justify-content: space-evenly;
+    flex-flow: row wrap;
     padding: 1rem;
-    
-}
+} 
 .flexcontainer2{
+    flex: 1 1 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
