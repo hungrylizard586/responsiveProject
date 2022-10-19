@@ -73,14 +73,14 @@ form{
     padding: 1rem;
 }
 .carousel {
-    width:40rem;
-    height:40rem;
+    width:38rem;
+    height:38rem;
   }
 
 img{
     text-align: center;
-    width: 40rem;
-    height: 40rem;
+    width: 38rem;
+    height: 38rem;
 }
 .flexcontainer1{
     display: flex;
