@@ -1,0 +1,123 @@
+
+/* styling search bar */
+#search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+}
+
+body{
+    margin: 0;
+}
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B3C12;
+    overflow: hidden;
+    align-items: center;
+    
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: flex;
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #AADD9D;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header{
+    background-color: #4E7544;
+    
+   position:sticky;
+   top:0;
+   z-index: 999;
+}
+
+h1{
+    margin:0;
+    color:white;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 3rem;
+}
+h5{
+    margin:0 0 0.5rem 0;
+    color:white;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+form{
+    text-align: center;
+}
+.flexitem1{
+    padding: 1rem;
+}
+.carousel {
+    width:40rem;
+    height:40rem;
+  }
+
+img{
+    text-align: center;
+    width: 40rem;
+    height: 40rem;
+}
+.flexcontainer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
+}
+.flexcontainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.flexitem3{
+    margin: 1rem 0rem;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    background-color: #4E7544;
+    justify-content: space-around;
+    padding: 1rem;
+    color: white;
+    align-items: center;
+}
+
+a{
+    color:white;
+    text-decoration: underline;
+}
+
+#copyright{
+    font-size: 0.5rem;
+    margin:0;
+}
