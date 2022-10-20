@@ -50,13 +50,13 @@
 }
 @media (max-width:800px){
     .carousel{
-        width: 20rem;
-        height: 20rem;
+        width: 10rem;
+        height: 10rem;
     }
     img{
         text-align: center;
-        width: 20rem;
-        height: 20rem;
+        width: 10rem;
+        height: 10rem;
     }
     .topnav{
         display: none;
