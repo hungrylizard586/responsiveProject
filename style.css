@@ -1,4 +1,4 @@
-@media (min-width:700px) and (max-width: 970px) {
+@media (min-width:800px) and (max-width: 970px) {
     .flexcontainer1{
         display: flex;
         justify-content: center;
@@ -48,7 +48,7 @@
         
     }
 }
-@media (max-width:700px){
+@media (max-width:800px){
     .carousel{
         width: 20rem;
         height: 20rem;
