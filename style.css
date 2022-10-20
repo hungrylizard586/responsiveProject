@@ -50,15 +50,20 @@
 }
 @media (max-width:500px){
     .carousel{
-        width: 30rem;
-        height: 30rem;
+        width: 20rem;
+        height: 20rem;
     }
     img{
         text-align: center;
-        width: 30rem;
-        height: 30rem;
+        width: 20rem;
+        height: 20rem;
     }
-    
+    .topnav{
+        display: hidden;
+    }
+    .dropdown{
+        display: flex;
+    }
 }
 /* styling search bar */
 #search input[type=text]{
