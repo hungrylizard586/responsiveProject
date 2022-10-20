@@ -92,21 +92,36 @@
         align-items: center;
     }
     .carousel{
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
     }
     img{
         text-align: center;
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
     }
     .topnav{
         display: none;
     }
     .dropdown{
         display: flex;
-        background-color: #1B3C12;
     } 
+    .myBut{
+        background-color: #1B3C12;
+        color:white;
+    }
+    .dropdown-item{
+        background-color: #1B3C12;
+        color: white;
+    }
+    #myactive{
+        background-color: #04AA6D;
+    }
+    .dropdown a:hover{
+        background-color: #AADD9D;
+        color:black;
+    }
+
 }
 /* styling search bar */
 #search input[type=text]{
