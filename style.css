@@ -1,10 +1,50 @@
-@media only screen and (max-device-width: 800px) {
+@media (max-width: 970px) {
     .flexcontainer1{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         padding: 1rem;
+        
+    }
+    .flex-container{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexitem1{
+        padding: 0.5rem;
+    }
+    .topnav{
+        display: none;
+    }
+}
+@media (min-width:970px) {
+    .flexcontainer1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        padding: 1rem;
+    } 
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .flexitem1{
+        padding: 1rem;
+    }
+    .dropdown{
+        display: none;
+    }
+    .topnav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #1B3C12;
+        overflow: hidden;
+        align-items: center; 
         
     }
 }
@@ -18,15 +58,6 @@
 body{
     margin: 0;
 }
-.topnav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #1B3C12;
-    overflow: hidden;
-    align-items: center;
-    
-    
-  }
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -50,12 +81,12 @@ body{
     background-color: #04AA6D;
     color: white;
   }
-.flex-container{
+/* .flex-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 header{
     background-color: #4E7544;
     
@@ -78,9 +109,6 @@ h5{
 form{
     text-align: center;
 }
-.flexitem1{
-    padding: 1rem;
-}
 .carousel {
     width:38rem;
     height:38rem;
@@ -92,12 +120,12 @@ img{
     height: 38rem;
 }
 
- .flexcontainer1{
+ /* .flexcontainer1{
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
     padding: 1rem;
-} 
+}  */
 .flexcontainer2{
     flex: 1 1 33%;
     display: flex;
