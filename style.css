@@ -88,7 +88,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding: 3rem;
+        padding: 1rem;
         
     }
     .flex-container{
@@ -100,11 +100,13 @@
     .carousel{
         width: 25rem;
         height: 25rem;
+        padding-bottom: 1rem;
     }
     img{
         text-align: center;
         width: 25rem;
         height: 25rem;
+        padding-bottom: 1rem;
     }
     .topnav{
         display: none;
@@ -117,8 +119,12 @@
         color:white;
         height: 3rem;
         width:7rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        padding-top: 0.3rem;
         
+    }
+    form{
+        padding:0.3rem;
     }
     .dropdown-item{
         background-color: #1B3C12;
@@ -132,7 +138,8 @@
         color:black;
     }
     h5{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        text-align: center;
     }
     h1{
         font-size: 2rem;
