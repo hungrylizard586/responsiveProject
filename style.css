@@ -29,6 +29,14 @@
         width: 38rem;
         height: 38rem;
     }
+    .topnav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #1B3C12;
+        overflow: hidden;
+        align-items: center; 
+        
+    }
 }
 @media (min-width:970px) {
     .flexcontainer1{
