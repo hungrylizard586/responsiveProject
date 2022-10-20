@@ -37,6 +37,9 @@
         align-items: center; 
         
     }
+    h1{
+        font-size: 3rem;
+    }
 }
 @media (min-width:970px) {
     .flexcontainer1{
@@ -75,6 +78,9 @@
         width: 38rem;
         height: 38rem;
     }
+    h1{
+        font-size: 3rem;
+    }
 }
 @media (max-width:800px){
     .flexcontainer1{
@@ -92,13 +98,13 @@
         align-items: center;
     }
     .carousel{
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
     img{
         text-align: center;
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
     .topnav{
         display: none;
@@ -109,6 +115,10 @@
     .myBut{
         background-color: #1B3C12;
         color:white;
+        height: 3rem;
+        width:7rem;
+        font-size: 1.5rem;
+        
     }
     .dropdown-item{
         background-color: #1B3C12;
@@ -120,6 +130,12 @@
     .dropdown a:hover{
         background-color: #AADD9D;
         color:black;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
     }
 
 }
@@ -174,7 +190,6 @@ h1{
     margin:0;
     color:white;
     font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 3rem;
 }
 h5{
     margin:0 0 0.5rem 0;
