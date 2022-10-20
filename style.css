@@ -16,7 +16,7 @@
     .flexitem1{
         padding: 0.5rem;
     }
-    .topnav{
+    .dropdown{
         display: none;
     }
 }
@@ -47,6 +47,18 @@
         align-items: center; 
         
     }
+}
+@media (max-width:500px){
+    .carousel{
+        width: 30rem;
+        height: 30rem;
+    }
+    img{
+        text-align: center;
+        width: 30rem;
+        height: 30rem;
+    }
+    
 }
 /* styling search bar */
 #search input[type=text]{
