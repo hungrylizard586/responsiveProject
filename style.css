@@ -59,7 +59,7 @@
         height: 20rem;
     }
     .topnav{
-        display: hidden;
+        display: none;
     }
     .dropdown{
         display: flex;
