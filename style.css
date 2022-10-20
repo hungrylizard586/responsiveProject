@@ -40,6 +40,11 @@
     h1{
         font-size: 3rem;
     }
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
 }
 @media (min-width:970px) {
     .flexcontainer1{
@@ -80,6 +85,11 @@
     }
     h1{
         font-size: 3rem;
+    }
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
     }
 }
 @media (max-width:800px){
@@ -143,6 +153,11 @@
     }
     h1{
         font-size: 2rem;
+    }
+    .logo{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
     }
 
 }
@@ -234,11 +249,7 @@ img{
     margin: 1rem 0rem;
 }
 
-.logo{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-}
+
 footer{
     display: flex;
     background-color: #4E7544;
